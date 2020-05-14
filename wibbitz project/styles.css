@@ -1,0 +1,427 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.my_container{
+    width: 1024px;
+    margin: auto;
+}
+.header{
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+}
+.nav_link:hover{
+    text-decoration: none;
+    color: black;
+}
+.nav_link{
+    color: black;
+}
+.button_blue{
+    padding: 8px 15px 8px 15px;
+    background-color: #0056fb;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button_blue:hover{
+    background-color: #0045c9;
+}
+.b_head{
+    margin-left: -30px;
+}
+.header_input{
+    border: 1.5px solid #ebebeb;
+    border-radius: 10px;
+    padding: 8px;
+    height: 40px;
+    background: none;
+    color: gray;
+    outline: none;
+}
+
+/*intro*/
+
+.intro{
+    margin-top: 50px;
+}
+.intro_img{
+    width: 550px;
+    height: 450px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.head{
+    font-weight: 700;
+    font-size: 35px;
+}
+.intro_link:hover, .intro_link{
+    color: blue;
+    text-decoration: none;
+}
+.intro_left_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.intro_left_text{
+    width: 220px;
+    height: 150px;
+}
+.webinar{
+    color: #e5cf79;
+}
+.blogpost{
+    color: #175bfc;
+}
+.read{
+    color: black;
+    border-bottom: 1.5px solid black;
+    font-weight: 500;
+    font-size: 14px;
+}
+.read:hover{
+    color: blue;
+    border-color: blue;
+    text-decoration: none;
+}
+.left_text{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn_intro{
+    width: 110px;
+}
+
+/*newblog*/
+.newblog{
+    margin-top: 100px;
+}
+.blog_img{
+    width: 300px;
+    height: 250px;
+    background-color: gray;
+    border-radius: 4px;
+}
+.resources{
+    margin-top: 100px;
+}
+.blog_right_block{
+    width: 400px;
+    height: 450px;
+    background-color: blue;
+    position: relative;
+    border-radius: 4px;
+}
+.blog_text_block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+}
+.blog_text{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.watchweb{
+    color: white;
+    border-bottom: 1.5px solid white;
+    font-weight: 500;
+    font-size: 14px;
+}
+.watchweb:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/*Upcoming Events*/
+
+.events{
+    margin-top: 100px;
+}
+.event_img{
+    width: 300px;
+    height: 250px;
+    border-radius: 4px;
+}
+.event_img::before{
+    content: '24 Jun';
+    display: block;
+    background-color: white;
+    border-bottom-right-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2px;
+    width: 50px;
+    height: 25px;
+    transition: 0.1s;
+    position: absolute;
+}
+.event_img:hover:before{
+    height: 0px;
+    visibility: hidden;
+    opacity:1;
+}
+
+/*Black Form*/
+
+.black_form{
+    margin-top: 50px;
+}
+.gray_text{
+    color: gray;
+}
+.black_form_block{
+    background-color: black;
+    color: white;
+    padding: 80px 50px 70px 40px;
+    border-radius: 4px;
+}
+.black_form_head{
+    font-weight: 700;
+}
+.right_form{
+    color: white;
+}
+.black_form_text{
+    padding: 0 185px 0 30px;
+}
+.black_icons{
+    color: gray;
+    font-size: 25px;
+    cursor: pointer;
+}
+.black_icons:hover{
+    color: white;
+}
+.black_form_icons{
+    width: 280px;
+}
+.black_link{
+    color: gray;
+    text-decoration: underline;
+}
+.black_link:hover{
+    color: gray;
+}
+/*footer*/
+
+.footer{
+    margin-top: 100px;
+}
+.footer_text_block{
+    padding-right: 30px;
+}
+.footer_text{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.footer_icons{
+    color: gray;
+    background-color: #f0f0f0;
+    padding: 10px 15px 10px 15px;
+    border-radius: 40%; 
+    cursor: pointer;
+}
+.language{
+    margin-top: 100px;
+}
+.lang_icon{
+    color: gray;
+    margin-right: 5px;
+}
+.choose{
+     font-size: 15px;
+     font-weight: 500;
+}
+.footer_li_head{
+    font-size: 15px;
+     font-weight: 500;
+}
+.footer_list{
+    list-style: none;
+    padding: 0;
+}
+.footer_nav_link{
+    color: black;
+    font-size: 14px;
+}
+.footer_nav_link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 991px) {
+  .black_form_block{
+    width: 550px;
+    padding: 80px 0 70px 70px;
+    justify-content: center;
+  }
+}
+
+
+
+/*insights*/
+
+.first_text{
+    padding: 100px 200px 50px 200px;
+}
+.first_header{
+    font-weight: 700;
+}
+
+.blue_head{
+    color: #0056fb;
+    font-weight: 500;
+}
+.name{
+    font-weight: 500;
+}
+.date{
+    color: gray;
+    font-weight: 500;
+}
+.y{
+    font-size: 80px;
+    line-height: 0.8;
+    font-weight: 500;
+}
+.insights_text{
+    font-weight: 500;
+}
+.insights_icons{
+    position: absolute;
+    right: 240px;
+}
+@media (max-width: 1375px) {
+  .insights_icons{
+    right: -100px;
+  }
+}
+
+/*insights black block*/
+
+.black_insight{
+    background-color: black;
+    width: 1200px;
+    border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 30px 20px 30px 20px;
+    margin-top: 50px;
+}
+.insight_black_btn{
+    width: 150px;
+}
+.black_insight_head{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.insight_black_text{
+    color: white;
+    font-weight: 500;
+}
+.black_insight_head{
+    font-size: 22px;
+    font-weight: 600;
+}
+.insight_black_img{
+    position: absolute;
+    bottom: -50px;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+}
+.insights_heads{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*insight text section*/
+
+.insight_text_section{
+    margin-top: 50px;
+}
+.insight_images{
+    position: relative;
+    width: 760px;
+}
+.insight_play{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    padding: 23px 20px 20px 29px;
+    cursor: pointer;
+}
+.border_text{
+    border-left: 5px solid black;
+    font-weight: 700;
+    padding-left: 40px;
+}
+.line{
+    width: 1150px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    
+}
+
+/*insight Eric*/
+
+.mathes{
+    margin-top: 100px;
+}
+.eric_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.eric_name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.eric_info{
+    font-size: 12px;
+    font-weight: 500;
+}
+.follow{
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*insight black blog*/
+
+.insights_black_second{
+    background-color: black;
+    border-radius: 4px;
+}
+.peoples{
+    font-size: 12px;
+}
+.insight_input{
+    border: none;
+    border-bottom: 1.5px solid gray;
+    height: 40px;
+    width: 200px;
+    background: none;
+    color: gray;
+    outline: none;
+}
