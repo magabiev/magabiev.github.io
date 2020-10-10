@@ -1,16 +1,16 @@
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
-  font-family: 'Source Sans Pro', sans-serif;
+body {
+  font-family: "Source Sans Pro", sans-serif;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
-.clicked{
+.clicked {
   cursor: pointer;
 }
-.header_main{
+.header_main {
   color: #333;
   font-size: 38px;
   text-align: center;
@@ -21,7 +21,7 @@ body{
   position: relative;
   z-index: 1;
 }
-.header_main::after{
+.header_main::after {
   content: "";
   position: absolute;
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/background/title.png);
@@ -35,18 +35,18 @@ body{
   top: -25px;
   right: 0;
 }
-.duration{
+.duration {
   animation-duration: 1s;
 }
-.duration:nth-child(2){
+.duration:nth-child(2) {
   animation-duration: 1.3s;
 }
-.duration:nth-child(3){
+.duration:nth-child(3) {
   animation-duration: 1.6s;
 }
 
 /**nav**/
-.nav{
+.nav {
   transition: 0.5s;
   position: fixed;
   top: 0;
@@ -54,10 +54,10 @@ body{
   color: #ffffff;
   z-index: 50;
 }
-.position_r{
+.position_r {
   position: relative;
 }
-.nav_scroll{
+.nav_scroll {
   position: fixed;
   top: 0;
   width: 100%;
@@ -65,52 +65,52 @@ body{
   background-color: #fff;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
 }
-.menu_parent{
+.menu_parent {
   display: flex;
   width: 50%;
 }
-.main_nav{
+.main_nav {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.active{
+.active {
   color: #caa847;
 }
-.logo{
+.logo {
   width: 60px;
   height: 50px;
   background-size: cover;
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/logo.png);
 }
-.menu_list{
+.menu_list {
   margin: 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
   list-style: none;
 }
-.menu_link{
+.menu_link {
   color: inherit;
   font-size: 17px;
   transition: 0.3s;
 }
-.menu_block{
+.menu_block {
   color: inherit;
   text-decoration: none;
   scroll-behavior: smooth;
 }
-.menu_block:hover{
+.menu_block:hover {
   color: #caa847;
   text-decoration: none;
   transition: 0.3s;
 }
-.nav_btn{
+.nav_btn {
   display: none;
 }
-@media only screen and (max-width: 770px){
-  .menu_list{
+@media only screen and (max-width: 770px) {
+  .menu_list {
     display: block;
     position: fixed;
     width: 100%;
@@ -123,10 +123,10 @@ body{
     margin-right: auto;
     transform: scaleY(0);
   }
-  .menu_block{
+  .menu_block {
     color: #333333;
   }
-  .nav{
+  .nav {
     color: #333333;
     background-color: #fff;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
@@ -137,11 +137,11 @@ body{
     margin-left: auto;
     margin-right: auto;
   }
-  .menu_parent{
+  .menu_parent {
     display: flex;
     justify-content: flex-end;
   }
-  .nav_btn{
+  .nav_btn {
     display: block;
     width: 56px;
     height: 45px;
@@ -151,23 +151,23 @@ body{
     font-size: 22px;
   }
   @keyframes scaleTop {
-    0%{
+    0% {
       transform: scaleY(0);
     }
-    100%{
+    100% {
       transform: scaleY(1);
     }
   }
   @keyframes scaleNone {
-    0%{
+    0% {
       transform: scaleY(1);
     }
-    100%{
+    100% {
       transform: scaleY(0);
     }
   }
 }
-@media only screen and (max-width: 770px) and (min-width: 768px){
+@media only screen and (max-width: 770px) and (min-width: 768px) {
   .menu_list li {
     width: 690px;
     max-width: 100%;
@@ -175,37 +175,37 @@ body{
     margin-right: auto;
   }
 }
-@media only screen and (max-width: 991px) and (min-width: 770px){
-  .menu_parent{
+@media only screen and (max-width: 991px) and (min-width: 770px) {
+  .menu_parent {
     width: 70%;
   }
 }
 
 /**intro**/
-.intro{
+.intro {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/background/bg.jpg);
   background-position: center;
   background-size: cover;
   height: 700px;
   position: relative;
 }
-.intro_text_block{
+.intro_text_block {
   margin-top: 250px;
   text-align: center;
 }
-.intro_header{
+.intro_header {
   color: #ffffff;
   font-weight: 600;
   font-size: 90px;
 }
-.intro_text{
+.intro_text {
   color: #ffffff;
   max-width: 70%;
   margin: auto;
   font-weight: 400;
   font-size: 15px;
 }
-.intro_btn{
+.intro_btn {
   color: #333333;
   margin: 30px auto 0 auto;
   background-color: #fff;
@@ -214,43 +214,43 @@ body{
   font-size: 15px;
   border-radius: 30px;
 }
-.shapes{
+.shapes {
   position: absolute;
   bottom: -4px;
   left: 0;
   width: 100%;
   z-index: 30;
 }
-svg{
+svg {
   width: 100%;
   height: 100%;
   fill: #fff !important;
 }
-#particles-js{
+#particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
 }
-canvas{
+canvas {
   width: 100%;
   height: 100%;
 }
-@media only screen and (max-width: 450px){
-  .intro_header{
+@media only screen and (max-width: 450px) {
+  .intro_header {
     font-size: 80px;
   }
 }
-@media only screen and (max-width: 395px){
-  .intro_header{
+@media only screen and (max-width: 395px) {
+  .intro_header {
     font-size: 65px;
   }
 }
 /**about**/
-.about{
+.about {
   padding: 80px 0;
 }
-.about_image{
+.about_image {
   max-width: 100%;
   margin-top: 25px;
   width: 450px;
@@ -261,8 +261,8 @@ canvas{
   background-position: center;
   background-size: cover;
 }
-.about_image::before{
-  content: '';
+.about_image::before {
+  content: "";
   position: absolute;
   left: -25px;
   top: 0;
@@ -272,43 +272,43 @@ canvas{
   background: #caa847;
   z-index: -1;
 }
-.about_content h3{
+.about_content h3 {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 12px;
   color: #333;
 }
-h3 span{
+h3 span {
   color: #caa847;
 }
-.about_content p{
+.about_content p {
   font-weight: 400;
   margin: 0px;
   font-size: 14px;
 }
-.about_profile_block{
+.about_profile_block {
   margin: 20px 0 20px 0;
 }
-.about_profile{
+.about_profile {
   list-style: outside none none;
   margin: 0;
   padding: 0;
 }
-.title_pro{
+.title_pro {
   font-weight: 700;
   position: relative;
   width: 128px;
   display: inline-block;
   margin-bottom: 10px;
 }
-.title_pro::after{
+.title_pro::after {
   position: absolute;
-  content: ':';
+  content: ":";
   color: #040404;
   font-size: 14px;
   left: 88px;
 }
-.about_btn{
+.about_btn {
   font-size: 14px;
   padding: 10px 30px;
   font-weight: 400;
@@ -318,95 +318,95 @@ h3 span{
   color: white;
   transition: 0.2s;
 }
-.about_btn:hover{
+.about_btn:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
-@media only screen and (max-width: 991px){
-  .about_image{
+@media only screen and (max-width: 991px) {
+  .about_image {
     margin-bottom: 15px;
   }
 }
-.facts{
+.facts {
   padding: 80px 0 0 0;
 }
-.fact_block{
+.fact_block {
   text-align: center;
 }
-.fact_block h3{
+.fact_block h3 {
   font-size: 38px;
   font-weight: 600;
   color: #333;
   margin-bottom: -4px;
 }
-.fact_block p{
+.fact_block p {
   color: #caa847;
   margin-top: 5px;
 }
 /**services**/
-.what_i_do{
+.what_i_do {
   background-color: #f6f7fe;
   position: relative;
   padding: 80px 0;
 }
-.do_blocks{
+.do_blocks {
   background: #fff;
   border-radius: 5px;
   padding: 50px 25px;
   text-align: center;
   transition: 0.2s;
 }
-.img_bg{
+.img_bg {
   display: flex;
   margin: auto;
   width: 90px;
   height: 90px;
-  background-position:  center;
+  background-position: center;
   background-size: cover;
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/service/service-icon-bg.svg);
 }
-.do_img{
+.do_img {
   margin: auto;
   width: 48px;
   height: 48px;
-  background-position:  center;
+  background-position: center;
   background-size: cover;
 }
-.do_img_first{
+.do_img_first {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/service/icon-responsive.svg);
 }
-.do_img_second{
+.do_img_second {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/service/icon-email.svg);
 }
-.do_img_last{
+.do_img_last {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/service/icon-lock.svg);
 }
-.do_blocks:hover{
-  box-shadow: 0px 0px 30px 0px rgba(227, 227, 227, 0.80);
+.do_blocks:hover {
+  box-shadow: 0px 0px 30px 0px rgba(227, 227, 227, 0.8);
 }
-.do_blocks:hover  .do_text h3{
+.do_blocks:hover .do_text h3 {
   color: #caa847;
 }
-.do_text h3{
+.do_text h3 {
   font-size: 18px;
   color: #333;
   margin: 10px 0;
 }
-.do_text p{
+.do_text p {
   font-weight: 400;
   margin: 0px;
   font-size: 15px;
 }
-@media only screen and (max-width: 991px){
-  .do_blocks{
+@media only screen and (max-width: 991px) {
+  .do_blocks {
     margin-bottom: 30px;
   }
 }
 
 /**portfolio**/
-.portfolio{
+.portfolio {
   padding: 80px 0;
 }
-.header_portfolio{
+.header_portfolio {
   color: #333;
   font-size: 38px;
   text-align: center;
@@ -417,7 +417,7 @@ h3 span{
   position: relative;
   z-index: 1;
 }
-.header_portfolio::after{
+.header_portfolio::after {
   content: "";
   position: absolute;
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/background/title.png);
@@ -431,7 +431,7 @@ h3 span{
   top: -25px;
   right: 0;
 }
-.filter_buttons{
+.filter_buttons {
   max-width: 100%;
   padding: 0 0 30px;
   margin: auto;
@@ -439,7 +439,7 @@ h3 span{
   flex-wrap: wrap;
   justify-content: center;
 }
-.filter_btn{
+.filter_btn {
   text-transform: uppercase;
   margin: 2px;
   color: #fff;
@@ -450,17 +450,17 @@ h3 span{
   border-radius: 30px;
   border: 1px solid;
 }
-.filter_btn:hover{
+.filter_btn:hover {
   background-color: #fff;
   color: #caa847;
   border: 1px solid #caa847;
 }
-.parent_img{
+.parent_img {
   width: 100%;
   position: relative;
   transition: 0.5s;
 }
-.portfolio_img{
+.portfolio_img {
   background-position: center;
   background-size: cover;
   position: relative;
@@ -470,39 +470,39 @@ h3 span{
   overflow: hidden;
   margin-bottom: 30px;
 }
-.portfolio_one{
+.portfolio_one {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/gallery/1.jpg);
 }
-.portfolio_two{
+.portfolio_two {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/gallery/2.jpg);
 }
-.portfolio_three{
+.portfolio_three {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/gallery/3.jpg);
 }
-.portfolio_four{
+.portfolio_four {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/gallery/4.jpg);
 }
-.portfolio_five{
+.portfolio_five {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/gallery/5.jpg);
 }
-.portfolio_six{
+.portfolio_six {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/gallery/6.jpg);
 }
-.black{
+.black {
   transition: 0.5s;
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
 }
-.parent_img:hover .black{
+.parent_img:hover .black {
   background-color: black;
   opacity: 0.5;
 }
-.parent_img:hover .port_icon_blocks{
+.parent_img:hover .port_icon_blocks {
   opacity: 1;
 }
-.port_icon{
+.port_icon {
   text-align: center;
   line-height: 42px;
   border-radius: 5px;
@@ -512,7 +512,7 @@ h3 span{
   background-color: #fff;
   color: #caa847;
 }
-.port_icon_blocks{
+.port_icon_blocks {
   transition: 0.5s;
   opacity: 0;
   z-index: 5;
@@ -524,11 +524,11 @@ h3 span{
 }
 
 /**resume**/
-.resume{
+.resume {
   background-color: #f6f7fe;
   padding: 80px 0;
 }
-.header_resume{
+.header_resume {
   color: #333;
   font-size: 38px;
   text-align: center;
@@ -539,7 +539,7 @@ h3 span{
   position: relative;
   z-index: 1;
 }
-.header_resume::after{
+.header_resume::after {
   content: "";
   position: absolute;
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/background/title.png);
@@ -553,11 +553,11 @@ h3 span{
   top: -25px;
   right: 0;
 }
-.time_line{
+.time_line {
   border-left: 1px solid #caa847;
   padding: 15px 0;
 }
-.timeline_item{
+.timeline_item {
   position: relative;
   padding: 15px 20px 10px;
   margin-left: 20px;
@@ -567,8 +567,8 @@ h3 span{
   border-left: 2px solid #caa847;
   transition: 0.3s;
 }
-.timeline_item::before{
-  content: '';
+.timeline_item::before {
+  content: "";
   display: inline-block;
   position: absolute;
   background-color: #fff;
@@ -580,8 +580,8 @@ h3 span{
   border: 2px solid #caa847;
   z-index: 2;
 }
-.timeline_item::after{
-  content: '';
+.timeline_item::after {
+  content: "";
   display: inline-block;
   position: absolute;
   background-color: #caa847;
@@ -592,21 +592,21 @@ h3 span{
   left: -29px;
   z-index: 1;
 }
-.item_title{
+.item_title {
   display: block;
   margin: 0;
   font-size: 16px;
   line-height: 1.2em;
   color: #333;
 }
-.item_period{
+.item_period {
   display: inline-block;
   font-size: 12px;
   line-height: 1.2em;
   color: #caa847;
   margin-bottom: 8px;
 }
-.item_small{
+.item_small {
   display: inline-block;
   font-size: 12px;
   line-height: 1.2em;
@@ -616,7 +616,7 @@ h3 span{
   padding-left: 8px;
   border-left: 1px solid #e0e0e0;
 }
-.item_description{
+.item_description {
   font-weight: 400;
   margin: 0px;
   font-size: 14px;
@@ -624,59 +624,59 @@ h3 span{
   line-height: 25px;
 }
 /**blog**/
-.blog{
-  padding: 80px  0;
+.blog {
+  padding: 80px 0;
   background-color: #f6f7fe;
 }
-.blog_blocks{
+.blog_blocks {
   background: #fff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
 }
-.blog_img{
+.blog_img {
   width: 100%;
   height: 250px;
   max-width: 100%;
-  background-position:  center;
+  background-position: center;
   background-size: cover;
 }
-.first_blog{
+.first_blog {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/blog/1.jpg);
 }
-.second_blog{
+.second_blog {
   background-image: url(http://belaltheme.com/html-preview/Mira/assets/img/blog/2.jpg);
 }
-.blog_date{
+.blog_date {
   color: #caa847;
   font-weight: 600;
   font-size: 14px;
   margin-top: 20px;
 }
-.blog_blocks h2{
+.blog_blocks h2 {
   font-weight: 600;
   font-size: 20px;
   color: #333;
 }
-.blog_blocks span{
+.blog_blocks span {
   color: #777777;
   margin-right: 20px;
   margin-bottom: 5px;
   display: inline-block;
   font-weight: 400;
 }
-.comment i{
+.comment i {
   color: #caa847;
 }
-.blog_blocks p{
+.blog_blocks p {
   padding: 0 0 20px;
   font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0px;
   font-size: 14px;
   color: #777777;
 }
-.blog_btn{
+.blog_btn {
   background-color: #caa847;
   color: white;
   font-size: 14px;
@@ -684,27 +684,27 @@ h3 span{
   border-radius: 30px;
   transition: 0.2s;
 }
-.blog_btn:hover{
-  box-shadow: 1px 5px 12px rgba(0,0,0, 0.15);
+.blog_btn:hover {
+  box-shadow: 1px 5px 12px rgba(0, 0, 0, 0.15);
 }
-@media only screen and (max-width: 991px){
-  .blog_blocks{
+@media only screen and (max-width: 991px) {
+  .blog_blocks {
     margin-bottom: 30px;
   }
 }
 /**contacts**/
-.contacts{
+.contacts {
   padding: 80px 0;
 }
-.contact_form{
+.contact_form {
   background: #fff;
   box-shadow: 0 0 30px #ededed;
   padding: 60px 40px;
 }
-.form_text{
+.form_text {
   margin-bottom: 1rem;
 }
-.form_input{
+.form_input {
   width: 100%;
   margin-bottom: 20px;
   font-size: 14px;
@@ -714,10 +714,10 @@ h3 span{
   border: 1px solid #e1e1e1;
   outline-color: #caa847;
 }
-.form_btn:active{
+.form_btn:active {
   outline: none;
 }
-.form_btn{
+.form_btn {
   background: #caa847;
   color: #fff;
   width: 100%;
@@ -732,26 +732,26 @@ h3 span{
   border: 1px solid transparent;
   transition: 0.2s;
 }
-.form_btn:hover{
-  box-shadow: 1px 5px 12px rgba(0,0,0, 0.15);
+.form_btn:hover {
+  box-shadow: 1px 5px 12px rgba(0, 0, 0, 0.15);
 }
-.contact_blocks{
+.contact_blocks {
   margin: 10px 22px;
   padding: 3px 55px;
   position: relative;
   color: #666;
 }
-.right_form{
+.right_form {
   font-size: 18px;
   color: #333;
   text-transform: uppercase;
 }
-.right_contact{
+.right_contact {
   padding: 4px;
-  border: 1px solid rgba(0,0,0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 30px;
 }
-.contact_icon{
+.contact_icon {
   background: #caa847;
   color: #fff;
   border-radius: 50%;
@@ -768,36 +768,36 @@ h3 span{
 }
 .contact_blocks p {
   font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 5px;
   font-size: 14px;
   white-space: nowrap;
 }
-@media only screen and (max-width: 767px){
-  .form_block{
+@media only screen and (max-width: 767px) {
+  .form_block {
     margin-bottom: 30px;
   }
 }
 
 /**footer**/
-.footer{
+.footer {
   padding: 80px 0;
   background-color: #333333;
   color: white;
   text-align: center;
 }
-.social_icons{
+.social_icons {
   display: flex;
   list-style: outside none none;
   margin: 0;
   padding: 0;
   margin: auto;
 }
-.icon{
+.icon {
   font-size: 18px;
   margin: 15px 6px;
   transition: 0.3s;
 }
-.icon:hover{
+.icon:hover {
   color: grey;
 }
