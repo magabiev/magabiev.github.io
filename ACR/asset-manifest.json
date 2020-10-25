@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "./static/js/main.7139c970.chunk.js",
+    "main.js.map": "./static/js/main.7139c970.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.e0b62ce1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.e0b62ce1.js.map",
+    "static/css/2.28548e53.chunk.css": "./static/css/2.28548e53.chunk.css",
+    "static/js/2.6811ce28.chunk.js": "./static/js/2.6811ce28.chunk.js",
+    "static/js/2.6811ce28.chunk.js.map": "./static/js/2.6811ce28.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.8be21bd7b934eb8b46c58bf8f6b64e09.js": "./precache-manifest.8be21bd7b934eb8b46c58bf8f6b64e09.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.28548e53.chunk.css.map": "./static/css/2.28548e53.chunk.css.map",
+    "static/js/2.6811ce28.chunk.js.LICENSE.txt": "./static/js/2.6811ce28.chunk.js.LICENSE.txt",
+    "static/media/material-icons.css": "./static/media/MaterialIcons-Regular.e79bfd88.eot",
+    "static/media/all.min.css": "./static/media/fa-solid-900.8e1ed89b.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0b62ce1.js",
+    "static/css/2.28548e53.chunk.css",
+    "static/js/2.6811ce28.chunk.js",
+    "static/js/main.7139c970.chunk.js"
+  ]
+}
